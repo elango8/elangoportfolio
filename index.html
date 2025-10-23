@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elango - UI/UX Designer & Web Developer</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="loader"></div>
+            <p>Loading Elango's Portfolio...💙</p>
+        </div>
+    </div>
+
+    <!-- Resume Modal -->
+        <div class="modal fade" id="resumeModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">My Resume</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <!-- If PDF: -->
+                <iframe src="img/resume.pdf" width="400px" height="500px" style="border:none;"></iframe>
+                
+            </div>
+            <div class="modal-footer">
+                <a href="img/resume.pdf" download class="btn btn-primary">
+                <i class="fas fa-download me-2"></i>Download Resume
+                </a>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+        </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#" data-aos="fade-right">
+                <i class="fas fa-code" class="porti" style="color: orange;"></i> Elango's Portfolio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="100">
+                        <a class="nav-link active" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="200">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="300">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="400">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="500">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="500">
+                        <a class="nav-link" href="#certificates">Certificates</a>
+                    </li>
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="600">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+                <div class="shape shape-5"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-8">
+                    <div class="hero-content">
+                        <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">
+                            Hi, I'm <span class="gradient-text">Elango</span><span class="shack">👋</span>
+                        </h1>
+                        <div class="hero-subtitle-wrapper">
+                            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="400">
+                                A passionate <span class="typed-text"></span>
+                            </p>
+                        </div>
+                        <p class="hero-description" data-aos="fade-up" data-aos-delay="600">
+                            Crafting exceptional digital experiences that inspire and engage users worldwide through innovative design and cutting-edge technology.
+                        </p>
+                        <div class="hero-buttons" data-aos="fade-up" data-aos-delay="800">
+                            <a href="#portfolio" class="btn-primary-custom ripple-effect">
+                                <i class="fas fa-eye"></i>
+                                View My Work
+                            </a>
+                            <a href="#contact" class="btn-secondary-custom ripple-effect">
+                                <i class="fas fa-paper-plane"></i>
+                                Get in Touch
+                            </a>
+                        </div>
+                        <div class="social-links" data-aos="fade-up" data-aos-delay="1000">
+                            <a href="https://linkedin.com/in/elangots96" class="social-link" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/elango8" class="social-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-link" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-left" data-aos-delay="600">
+                    <div class="hero-image-container">
+                        <div class="hero-image">
+                            <img src="r.png" alt="Elango - UI/UX Designer">
+                            <div class="image-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate about creating meaningful digital experiences</p>
+            </div>
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="about-content">
+                        <h3 class="mb-4">My Journey</h3>
+                        <p class="lead">
+                            Hello! I'm Elango, a passionate UI/UX Designer and Front-end Developer with a mission to create digital experiences that not only look stunning but also solve real problems.
+                        </p>
+                        <p>
+                            My journey began with curiosity about how design and technology intersect. Today, I combine aesthetic sensibility with technical expertise to craft solutions that users love and businesses need.
+                        </p>
+                        <p>
+                            When I'm not designing or coding, you'll find me exploring new design trends, contributing to open-source projects, or sharing knowledge with the developer community.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <h4 class="stat-number" data-count="5">0</h4>
+                                <p class="stat-label">Projects Completed</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4 class="stat-number" data-count="3">0</h4>
+                                <p class="stat-label">Happy Clients</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4 class="stat-number" data-count="1">0</h4>
+                                <p class="stat-label">Years Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="about-image">
+                        <div class="image-wrapper">
+                            <img src="1000021188.jpg" alt="About Elango" class="rounded-4">
+                            <div class="floating-card card-1">
+                                <i class="fas fa-palette"></i>
+                                <span style="color: rgb(0, 123, 255);">UI/UX Design</span>
+                            </div>
+                            <div class="floating-card card-2">
+                                <i class="fas fa-code"></i>
+                                <span style="color: rgb(0, 132, 255);">Front-end Development</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+     <div  style="background-color: rgb(187, 220, 255);">
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle" style="color: gray;">Technologies and tools I work with</p>
+            </div>
+            <div class="row g-4">
+                <div  class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div id="skil" class="skill-category">
+                        <div class="category-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h4 style="color: black;">Design</h4>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>UI/UX Design</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Figma</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Adobe XD</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Prototyping</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div id="skil" class="skill-category">
+                        <div class="category-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4 style="color: black;">Development</h4>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>HTML/CSS</span>
+                                    <span>98%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="98"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>JavaScript</span>
+                                    <span>92%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="92"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>React</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div id="skil" class="skill-category">
+                        <div class="category-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h4 style="color: black;">Tools</h4>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Bootstrap</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Tailwind CSS</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Git/GitHub</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>AI Tools</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="95"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     </div>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2 class="section-title">My Portfolio</h2>
+                <p class="section-subtitle">Showcasing my best work and creative solutions</p>
+            </div>
+            
+            <!-- Portfolio Filter -->
+            <div class="portfolio-filter text-center mb-5" data-aos="fade-up" data-aos-delay="200">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="ui">UI/UX</button>
+            </div>
+            <!-- 1 -->
+            <div class="row g-4 portfolio-grid">
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="ui" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                         
+                            <img src="Screenshot 2025-08-08 205310.png" alt="SignIn">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h5>SignIn & SignUp</h5>
+                                    <p>UI/UX Design</p>
+                                    <div class="portfolio-buttons">
+                                        <a href="https://www.figma.com/proto/T5MCigL5OoOtv2ZwT52yR1/login.site?page-id=0%3A1&node-id=4-13&starting-point-node-id=4%3A13&t=6zewHGj5sqObK8B6-1" class="btn-icon tect-primary"><i class="fas fa-eye"></i></a> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h5>login</h5>
+                            <p>Complete UI/UX overhaul for login</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Figma</span>
+                                <span class="tag">Wireframes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            <!-- 2 -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="ui" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="synaphack.png" alt="Synaphack">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h5>Synaphack</h5>
+                                    <p>Web Application design</p>
+                                    <div class="portfolio-buttons">
+                                        <a href="https://www.figma.com/proto/J41qCuH7D73QaHDpmHKoFi/Untitled?page-id=0%3A1&node-id=1-5&p=f&viewport=2059%2C2022%2C0.54&t=CfV7bOtWQEvCSqyC-1&scaling=scale-down&content-scaling=fixed" class="btn-icon tect-primary"><i class="fas fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h5>synaphack Intership app</h5>
+                            <p>High-converting landing page with modern design</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Figma</span>
+                                <span class="tag">Prototyping</span>
+                                <span class="tag">Wireframing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- 3    -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="ui" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="grocery.png" alt="Grocery app">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h5>Grocery</h5>
+                                    <p>mobile app ui & ux design</p>
+                                    <div class="portfolio-buttons">
+                                        <a href="https://www.figma.com/proto/AoO9jQtpG7J06jBd61Axio/Untitled?page-id=0%3A1&node-id=13-172&p=f&viewport=-241%2C351%2C0.23&t=nMREeFZ8btGbxHkb-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3%3A36" class="btn-icon tect-primary"><i class="fas fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h5>Shopify grocery app</h5>
+                            <p>stunning grocery for fruits and vegetable page with modern design</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Figma</span>
+                                <span class="tag">Prototyping</span>
+                                <span class="tag">Wireframing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            <!-- 4 -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="ui" data-aos="fade-up" data-aos-delay="500">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="Screenshot 2025-08-08 205155.png" alt="fashion">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h5>Fashion Store</h5>
+                                    <p>UI/UX Design</p>
+                                    <div class="portfolio-buttons">
+                                        <a href="https://www.figma.com/proto/CMMY8MQvHsmUCj55dzcCaD/Untitled?page-id=0%3A1&node-id=15-11&t=vwnPEWDJg3p5IP1K-1" class="btn-icon tect-primary"><i class="fas fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h5>Creative fashion store</h5>
+                            <p>Interactive portfolio for creative agency</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Figma</span>
+                                <span class="tag">UI&UX design</span>
+                                <span class="tag">Mockups</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- 5 -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="ui" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="coastalink.png" alt="Coastalink">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h5>Costalink</h5>
+                                    <p>mobile app design</p>
+                                    <div class="portfolio-buttons">
+                                        <a href="https://www.figma.com/proto/pxPivskg6KHj3CndrpX9bt/Untitled?page-id=0%3A1&node-id=1-3&t=h8DrjktcAKaxfPuu-1" class="btn-icon tect-primary"><i class="fas fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h5>Coastalink app</h5>
+                            <p>stunning glassomorphism weather page with modern design</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Figma</span>
+                                <span class="tag">Prototyping</span>
+                                <span class="tag">Wireframing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <!-- 6 -->
+                   <div class="col-lg-4 col-md-6 portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="Screenshot 2025-08-08 205841.png" alt="Br architect">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h5>BR Architect</h5>
+                                    <p>Web Application</p>
+                                    <div class="portfolio-buttons">
+                                        <a href="https://elango8.github.io/brarchitects.github.io/" class="btn-icon tect-primary"><i class="fas fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h5>contruction app</h5>
+                            <p>High-converting landing page with modern design</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">HTML/CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- 7 -->
+                
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="600">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="Screenshot 2025-07-30 104035.png" alt="SignIn">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h5>Vest Hotel App</h5>
+                                    <p>Web Application</p>
+                                    <div class="portfolio-buttons">
+                                        <a href="https://elango8.github.io/vesthotelroom.github.com/" class="btn-icon tect-primary"><i class="fas fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h5>Hotel Booking Site</h5>
+                            <p>luxury rooms booking sites all over the countries</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Front-end</span>
+                                <span class="tag">Bootstrap</span>
+                                <span class="tag">Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2 class="section-title">My Journey</h2>
+                <p class="section-subtitle">Professional experience and educational background</p>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h3 class="mb-4" class="text-primary">Work Experience</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h5 class="text-secondary">Web Developer Intern</h5>
+                                <p class="text-info mb-2">Knewton Tech | Jun 2025 - July 2025</p>
+                                <ul>
+                                    <li>Led design and development of responsive web applications</li>
+                                    <li>Improved user engagement by 25% through UX optimization</li>
+                                    <li>Collaborated with cross-functional teams on product strategy</li>
+                                    <li>Got real time experience from senior developers and designers</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h5 class="text-secondary">Web Development Intern</h5>
+                                <p class="text-info mb-2"> Internshala Trainings | Aug 2025 - July 2025  </p>
+                                <ul class="text-muted">
+                                    <li>Designed and developed websites for various clients</li>
+                                    <li>Created wireframes and prototypes for new projects</li>
+                                    <li>Optimized website performance and responsiveness</li>
+                                    <li>Conducted user research and usability testing</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <h3 class="mb-4" class="text-secondary">Education & Certifications</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h5 class="text-secondary">B.Tech Artificial intelligence and Data Science</h5>
+                                <p class="text-primary mb-2"> Kangeyam Institute of Technology | 2023 - 2027</p>
+                                <p class="text-muted">Focused on software engineering and user interface design principles. Graduated with honors and completed several industry-relevant projects.</p><br>
+                                <p style="color: darkcyan;" >Overall <span style="color: red;">CGPA </span>:<p class="stat-number" data-count="8.14">8.14</p></p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h5 class="text-secondary">Professional Certifications</h5>
+                                <p class="text-primary mb-2">Various Institutions | 2024 - 2025</p>
+                                <ul>
+                                    <li>Google UX Design Professional Certificate(Coursera)</li>
+                                    <li>Figma & Adobe Xd(simplylearn)</li>
+                                    <li>Python (GeeksforGeeks)</li>
+                                    <li>Web development (Internshala)</li>
+                                    <li>React js(Scalar topics)</li>
+                                    <li>Hackerhank(10 days of javascript)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5" data-aos="fade-up">
+                <!-- ...existing code... -->
+                <a href="#" class="btn-primary-custom ripple-effect" data-bs-toggle="modal" data-bs-target="#resumeModal">
+                    <i class="fas fa-download"></i>
+                         View Resume
+                </a>
+                <!-- ...existing code... -->
+            </div>
+        </div>
+    </section>
+
+    <!--Certificates-->
+
+    <div style="background-color: rgb(187, 220, 255);">
+    <section id="certificates" class="section" style="color: azure;">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2 class="section-title">My Certificates</h2>
+                <p class="section-subtitle" style="color: gray;">Professional certifications and achievements</p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Certificate 1 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="certificate-card h-100">
+                        <div class="certificate-image">
+                            <img src="img/google.png" alt="Google UX Foundation Design Certificate" class="img-fluid">
+                            <div class="certificate-overlay">
+                                <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#certificateModal1">
+                                    <i class="fas fa-eye"></i> View Certificate
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="certificate-badge mb-3">
+                                <i class="fab fa-google text-primary fs-2"></i>
+                            </div>
+                            <h5 class="card-title">Google UX Design Professional Certificate</h5>
+                            <p class="card-text text-muted">Google Career Certificates</p>
+                            <div class="certificate-details">
+                                <small class="text-muted d-block mb-2">
+                                    <i class="fas fa-calendar-alt me-2"></i>Issued: august 2025
+                                </small>
+                                <small class="text-muted d-block">
+                                    <i class="fas fa-certificate me-2"></i>Credential ID: GUX123456
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate 2 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="certificate-card h-100">
+                        <div class="certificate-image">
+                            <img src="img/gfg.png" alt="freeCodeCamp Certificate" class="img-fluid">
+                            <div class="certificate-overlay">
+                                <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#certificateModal2">
+                                    <i class="fas fa-eye"></i> View Certificate
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="certificate-badge mb-3">
+                                <i class="fa-brands fa-python" style="color: #306998; font-size: 2rem;"></i>
+                            </div>
+                            <h5 class="card-title">Python certificate</h5>
+                            <p class="card-text text-muted">GeeksforGeeks</p>
+                            <div class="certificate-details">
+                                <small class="text-muted d-block mb-2">
+                                    <i class="fas fa-calendar-alt me-2"></i>Issued: March 2023
+                                </small>
+                                <small class="text-muted d-block">
+                                    <i class="fas fa-certificate me-2"></i>Credential ID: FCC789012
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate 3 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="certificate-card h-100">
+                        <div class="certificate-image">
+                            <img src="img/scalar.png" alt="AWS Certificate" class="img-fluid">
+                            <div class="certificate-overlay">
+                                <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#certificateModal3">
+                                    <i class="fas fa-eye"></i> View Certificate
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="certificate-badge mb-3">
+                                <i class="fab fa-react text-info fs-2"></i>
+                            </div>
+                            <h5 class="card-title">React bootcamp certificate</h5>
+                            <p class="card-text text-muted">Scalar</p>
+                            <div class="certificate-details">
+                                <small class="text-muted d-block mb-2">
+                                    <i class="fas fa-calendar-alt me-2"></i>Issued: September 2025
+                                </small>
+                                <small class="text-muted d-block">
+                                    <i class="fas fa-certificate me-2"></i>Credential ID: AWS345678
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <!-- Certificate 4 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="certificate-card h-100">
+                        <div class="certificate-image">
+                            <img src="img/internsala.png" alt="React Certificate" class="img-fluid">
+                            <div class="certificate-overlay">
+                                <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#certificateModal4">
+                                    <i class="fas fa-eye"></i> View Certificate
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="certificate-badge mb-3">
+                                <i class="fa-brands fa-dev" style="color: #f6b607; font-size: 2rem;"></i>
+
+                            </div>
+                            <h5 class="card-title">Web Development Intership </h5>
+                            <p class="card-text text-muted">Internshala</p>
+                            <div class="certificate-details">
+                                <small class="text-muted d-block mb-2">
+                                    <i class="fas fa-calendar-alt me-2"></i>Issued: jun 2025
+                                </small>
+                                <small class="text-muted d-block">
+                                    <i class="fas fa-certificate me-2"></i>Credential ID: META901234
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate 5 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="certificate-card h-100">
+                        <div class="certificate-image">
+                            <img src="img/hacker.png" alt="Adobe Certified" class="img-fluid">
+                            <div class="certificate-overlay">
+                                <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#certificateModal5">
+                                    <i class="fas fa-eye"></i> View Certificate
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="certificate-badge mb-3">
+                                <i class="fa-brands fa-hackerrank" style="color: #2EC866; font-size: 2rem;" ></i>
+                            </div>
+                            <h5 class="card-title">css certificate</h5>
+                            <p class="card-text text-muted">Hackerhank</p>
+                            <div class="certificate-details">
+                                <small class="text-muted d-block mb-2">
+                                    <i class="fas fa-calendar-alt me-2"></i>Issued: August 2025
+                                </small>
+                                <small class="text-muted d-block">
+                                    <i class="fas fa-certificate me-2"></i>Credential ID: ACE567890
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate 6 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="certificate-card h-100">
+                        <div class="certificate-image">
+                            <img src="img/figma.png" alt="JavaScript Certificate" class="img-fluid">
+                            <div class="certificate-overlay">
+                                <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#certificateModal6">
+                                    <i class="fas fa-eye"></i> View Certificate
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="certificate-badge mb-3">
+                                <i class="fa-brands fa-figma text-warning fs-2"></i>
+                                
+                            </div>
+                            <h5 class="card-title">Introduction of figma</h5>
+                            <p class="card-text text-muted">simplylearn</p>
+                            <div class="certificate-details">
+                                <small class="text-muted d-block mb-2">
+                                    <i class="fas fa-calendar-alt me-2"></i>Issued: April 2025
+                                </small>
+                                <small class="text-muted d-block">
+                                    <i class="fas fa-certificate me-2"></i>Credential ID: FCC234567
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- View All Certificates Button -->
+            <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="700">
+                <button class="btn btn-outline-primary btn-lg" data-bs-toggle="modal" data-bs-target="#allCertificatesModal">
+                    <i class="fas fa-certificate me-2"></i>View All Certificates
+                </button>
+            </div>
+        </div>
+    </section>
+<section>
+
+    <!-- Certificate Modals -->
+    <!-- Certificate Modal 1 -->
+    <div class="modal fade" id="certificateModal1" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Google UX Design Professional Certificate</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/google.png" alt="Certificate" class="img-fluid rounded">
+                    <div class="mt-3">
+                        <p class="text-muted">Issued by Google Career Certificates • January 2024</p>
+                        <p><strong>Skills:</strong> User Experience Design, Wireframing, Prototyping, User Research</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="img/google.png" download class="btn btn-primary">
+                        <i class="fas fa-download me-2"></i>Download Certificate
+                    </a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Certificate Modal 2 -->
+    <div class="modal fade" id="certificateModal2" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Python</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/gfg.png" alt="Certificate" class="img-fluid rounded">
+                    <div class="mt-3">
+                        <p class="text-muted">Issued by GeeksforGeeks • March 2023</p>
+                        <p><strong>Skills:</strong>Python</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="img/gfg.png" download class="btn btn-primary">
+                        <i class="fas fa-download me-2"></i>Download Certificate
+                    </a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Certificate Modal 3 -->
+    <div class="modal fade" id="certificateModal3" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/scalar.png" alt="Certificate" class="img-fluid rounded">
+                    <div class="mt-3">
+                        <p class="text-muted">Issued by Scalar • September 2025</p>
+                        <p><strong>Skills:</strong> React</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="img/scalar.png" download class="btn btn-primary">
+                        <i class="fas fa-download me-2"></i>Download Certificate
+                    </a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Certificate Modal 4 -->
+    <div class="modal fade" id="certificateModal4" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Advanced React Development Certificate</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/internsala.png" alt="Certificate" class="img-fluid rounded">
+                    <div class="mt-3">
+                        <p class="text-muted">Issued by internshala trainings• September 2023</p>
+                        <p><strong>Skills:</strong> Web Development</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="img/internsala.png" download class="btn btn-primary">
+                        <i class="fas fa-download me-2"></i>Download Certificate
+                    </a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Certificate Modal 5 -->
+    <div class="modal fade" id="certificateModal5" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Cascading Style sheet </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/hacker.png" alt="Certificate" class="img-fluid rounded">
+                    <div class="mt-3">
+                        <p class="text-muted">Issued by Hackerhank • August 2025</p>
+                        <p><strong>Skills:</strong> CSS</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="img/hacker.png" download class="btn btn-primary">
+                        <i class="fas fa-download me-2"></i>Download Certificate
+                    </a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Certificate Modal 6 -->
+    <div class="modal fade" id="certificateModal6" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Figma</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/figma.png" alt="Certificate" class="img-fluid rounded">
+                    <div class="mt-3">
+                        <p class="text-muted">Issued by simplylearn •April 2025</p>
+                        <p><strong>Skills:</strong>Figma</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="img/figma.png" download class="btn btn-primary">
+                        <i class="fas fa-download me-2"></i>Download Certificate
+                    </a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- All Certificates Modal -->
+    <div class="modal fade" id="allCertificatesModal" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">All Professional Certificates</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row g-3">
+                        <div class="col-md-6 col-lg-4">
+                            <img src="img/google.png" alt="Certificate 1" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <img src="img/gfg.png" alt="Certificate 2" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <img src="img/scalar.png" alt="Certificate 3" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <img src="img/internsala.png" alt="Certificate 4" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <img src="img/hacker.png" alt="Certificate 5" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <img src="img/figma.png" alt="Certificate 6" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+      
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Have a project in mind? Let's discuss your ideas</p>
+            </div>
+            <div class="row g-5 justify-content-center">
+                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Your Name" required>
+                                        <label>Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Your Email" required>
+                                        <label>Your Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Subject">
+                                        <label>Subject</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" rows="6" placeholder="Your Message" required></textarea>
+                                        <label>Your Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn-primary-custom ripple-effect">
+                                        <i class="fas fa-paper-plane"></i>
+                                        Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i id="con-icon" class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Location</h5>
+                                <p>Krishnagiri, Tamil Nadu, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i id="con-icon" class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Email</h5>
+                                <p style="font-size: small;">elangoselvan46@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i id="con-icon" class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Phone</h5>
+                                <p>+91 9344377644</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i id="con-icon" class="fas fa-globe"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Website</h5>
+                                <p>www.elango.dev</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-6">
+                    <div class="footer-brand">
+                        <h4>Elango T</h4>
+                        <p>Crafting digital experiences with passion and precision.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <div class="footer-social">
+                        <a href="https://linkedin.com/in/elangots96" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/elango8" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="footer-copyright">
+                        &copy; 2025 Elango's Portfolio. All rights reserved. Made with <i class="fas fa-heart text-primary"></i>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="port.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</body>
+</html>
